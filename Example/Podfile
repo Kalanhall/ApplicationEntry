@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ApplicationEntry_Example' do
+  pod 'ApplicationEntry', :path => '../'
+
+  target 'ApplicationEntry_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
