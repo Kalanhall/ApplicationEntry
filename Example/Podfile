@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'ApplicationEntry_Example' do
   pod 'ApplicationEntry', :path => '../'
-
+  pod 'lottie-ios'
   target 'ApplicationEntry_Tests' do
     inherit! :search_paths
 

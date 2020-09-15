@@ -1,0 +1,23 @@
+PODS:
+  - ApplicationEntry (1.0.0)
+  - lottie-ios (3.1.8)
+
+DEPENDENCIES:
+  - ApplicationEntry (from `../`)
+  - lottie-ios
+
+SPEC REPOS:
+  trunk:
+    - lottie-ios
+
+EXTERNAL SOURCES:
+  ApplicationEntry:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ApplicationEntry: ca03a1853ced94367854d2f8db4e65d4154e46f5
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+
+PODFILE CHECKSUM: 708f4f2acf70c754363276f65a6443213587f493
+
+COCOAPODS: 1.9.1

@@ -15,6 +15,18 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		B95029B28C5243960E52082F /* Pods_ApplicationEntry_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3499C0D24F22101037AC0FBD /* Pods_ApplicationEntry_Tests.framework */; };
+		F6102539250F159400669777 /* HotBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6102538250F159300669777 /* HotBtn.swift */; };
+		F610253B250F6A8000669777 /* XianYuTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F610253A250F6A8000669777 /* XianYuTabBarController.swift */; };
+		F610253D250F6A9400669777 /* HotBookTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F610253C250F6A9400669777 /* HotBookTabBarController.swift */; };
+		F610253F250F6F0F00669777 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F610253E250F6F0F00669777 /* DemoViewController.swift */; };
+		F6102541251061EE00669777 /* JingDongTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6102540251061ED00669777 /* JingDongTabBarController.swift */; };
+		F61025592510658600669777 /* Animations in Resources */ = {isa = PBXBuildFile; fileRef = F61025582510658600669777 /* Animations */; };
+		F610255C2510834C00669777 /* SystemTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F610255B2510834C00669777 /* SystemTabBarController.swift */; };
+		F610255E251090CE00669777 /* System1TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F610255D251090CE00669777 /* System1TabBarController.swift */; };
+		F6102562251099BC00669777 /* System2TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6102561251099BC00669777 /* System2TabBarController.swift */; };
+		F610256425109E3600669777 /* WeiBoTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F610256325109E3500669777 /* WeiBoTabBarController.swift */; };
+		F61025662510A91000669777 /* DouYinTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61025652510A91000669777 /* DouYinTabBarController.swift */; };
+		F61025682510BCA900669777 /* DemoImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61025672510BCA900669777 /* DemoImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B93F8F2D04227094FCCA7F0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0B93F8F2D04227094FCCA7F0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3499C0D24F22101037AC0FBD /* Pods_ApplicationEntry_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApplicationEntry_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* ApplicationEntry_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplicationEntry_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,10 +55,22 @@
 		619AB2D334C859FADBC65B35 /* Pods-ApplicationEntry_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplicationEntry_Example.release.xcconfig"; path = "Target Support Files/Pods-ApplicationEntry_Example/Pods-ApplicationEntry_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8F2F4DB5889159B2B52F7A4D /* Pods-ApplicationEntry_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplicationEntry_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ApplicationEntry_Tests/Pods-ApplicationEntry_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F49926117711E509CA4D7D4 /* Pods-ApplicationEntry_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplicationEntry_Tests.release.xcconfig"; path = "Target Support Files/Pods-ApplicationEntry_Tests/Pods-ApplicationEntry_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C5A675AA9E1DFF6C22698463 /* ApplicationEntry.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ApplicationEntry.podspec; path = ../ApplicationEntry.podspec; sourceTree = "<group>"; };
+		C5A675AA9E1DFF6C22698463 /* ApplicationEntry.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ApplicationEntry.podspec; path = ../ApplicationEntry.podspec; sourceTree = "<group>"; };
 		D427AC681C75F6027EEDC435 /* Pods-ApplicationEntry_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplicationEntry_Example.debug.xcconfig"; path = "Target Support Files/Pods-ApplicationEntry_Example/Pods-ApplicationEntry_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DB515ED5211EC514B74EA368 /* Pods_ApplicationEntry_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApplicationEntry_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6FFD8F5F6614D5DE21FA099 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E6FFD8F5F6614D5DE21FA099 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F6102538250F159300669777 /* HotBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotBtn.swift; sourceTree = "<group>"; };
+		F610253A250F6A8000669777 /* XianYuTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XianYuTabBarController.swift; sourceTree = "<group>"; };
+		F610253C250F6A9400669777 /* HotBookTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotBookTabBarController.swift; sourceTree = "<group>"; };
+		F610253E250F6F0F00669777 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		F6102540251061ED00669777 /* JingDongTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JingDongTabBarController.swift; sourceTree = "<group>"; };
+		F61025582510658600669777 /* Animations */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Animations; sourceTree = "<group>"; };
+		F610255B2510834C00669777 /* SystemTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemTabBarController.swift; sourceTree = "<group>"; };
+		F610255D251090CE00669777 /* System1TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = System1TabBarController.swift; sourceTree = "<group>"; };
+		F6102561251099BC00669777 /* System2TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = System2TabBarController.swift; sourceTree = "<group>"; };
+		F610256325109E3500669777 /* WeiBoTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeiBoTabBarController.swift; sourceTree = "<group>"; };
+		F61025652510A91000669777 /* DouYinTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYinTabBarController.swift; sourceTree = "<group>"; };
+		F61025672510BCA900669777 /* DemoImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +119,14 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				F610253E250F6F0F00669777 /* DemoViewController.swift */,
+				F61025672510BCA900669777 /* DemoImageViewController.swift */,
+				F6102538250F159300669777 /* HotBtn.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				F610255A251082C400669777 /* Demo */,
+				F61025582510658600669777 /* Animations */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for ApplicationEntry";
@@ -156,8 +185,38 @@
 				8F2F4DB5889159B2B52F7A4D /* Pods-ApplicationEntry_Tests.debug.xcconfig */,
 				8F49926117711E509CA4D7D4 /* Pods-ApplicationEntry_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F610255A251082C400669777 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				F610255F251090D500669777 /* System */,
+				F6102560251090DF00669777 /* Other */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		F610255F251090D500669777 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				F610255B2510834C00669777 /* SystemTabBarController.swift */,
+				F610255D251090CE00669777 /* System1TabBarController.swift */,
+				F6102561251099BC00669777 /* System2TabBarController.swift */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		F6102560251090DF00669777 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F610253A250F6A8000669777 /* XianYuTabBarController.swift */,
+				F610253C250F6A9400669777 /* HotBookTabBarController.swift */,
+				F6102540251061ED00669777 /* JingDongTabBarController.swift */,
+				F610256325109E3500669777 /* WeiBoTabBarController.swift */,
+				F61025652510A91000669777 /* DouYinTabBarController.swift */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +267,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
@@ -217,7 +276,7 @@
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1170;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -227,6 +286,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -247,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				F61025592510658600669777 /* Animations in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -314,10 +375,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ApplicationEntry_Example/Pods-ApplicationEntry_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ApplicationEntry/ApplicationEntry.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ApplicationEntry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -332,6 +395,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				F61025682510BCA900669777 /* DemoImageViewController.swift in Sources */,
+				F6102541251061EE00669777 /* JingDongTabBarController.swift in Sources */,
+				F610253B250F6A8000669777 /* XianYuTabBarController.swift in Sources */,
+				F610256425109E3600669777 /* WeiBoTabBarController.swift in Sources */,
+				F610253D250F6A9400669777 /* HotBookTabBarController.swift in Sources */,
+				F610255C2510834C00669777 /* SystemTabBarController.swift in Sources */,
+				F610255E251090CE00669777 /* System1TabBarController.swift in Sources */,
+				F61025662510A91000669777 /* DouYinTabBarController.swift in Sources */,
+				F610253F250F6F0F00669777 /* DemoViewController.swift in Sources */,
+				F6102562251099BC00669777 /* System2TabBarController.swift in Sources */,
+				F6102539250F159400669777 /* HotBtn.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +452,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -386,12 +461,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -431,6 +508,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -439,12 +517,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -484,7 +564,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -499,7 +579,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -520,7 +600,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApplicationEntry_Example.app/ApplicationEntry_Example";
 			};
 			name = Debug;
@@ -538,7 +618,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApplicationEntry_Example.app/ApplicationEntry_Example";
 			};
 			name = Release;
