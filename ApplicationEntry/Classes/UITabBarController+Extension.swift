@@ -25,7 +25,12 @@ public enum TabAppearanceType {
     case shadowImage
     /// 背景色 UIColor
     case backgroundColor
-    /// 背景图 UIImage
+    /// 背景图 UIImage ，iOS13  backgroundEffect，如果需要透明的话，需要处理高斯模糊为nil
+    ///
+    ///     支持的数据格式：
+    ///     UIImage    不处理高斯模糊
+    ///     (UIImage, UIBlurEffect)   处理高斯模糊背景
+    ///     (UIImage, Bool)   是否使用系统自带高斯模糊背景，默认true
     case backgroundImage
 }
 
@@ -195,16 +200,35 @@ public extension UITabBarController {
                     tabBar.backgroundColor = attribute.value as? UIColor
                 }
             case .backgroundImage:
-                guard attribute.value is UIImage else {
-                    return
-                }
                 if #available(iOS 13.0, *) {
                     let appearance = tabBar.standardAppearance.copy()
-                    appearance.backgroundImage = attribute.value as? UIImage
-                    appearance.configureWithTransparentBackground()
+                    switch attribute.value {
+                    case is UIImage:
+                        appearance.backgroundImage = attribute.value as? UIImage
+                    case is (UIImage, UIBlurEffect):
+                        let (backgroundImage, effect) = attribute.value as! (UIImage, UIBlurEffect)
+                        appearance.backgroundImage = backgroundImage
+                        appearance.backgroundEffect = effect
+                    case is (UIImage, Bool):
+                        let (backgroundImage, result) = attribute.value as! (UIImage, Bool)
+                        appearance.backgroundImage = backgroundImage
+                        if result == false { appearance.backgroundEffect = nil }
+                    default:
+                        break
+                    }
                     tabBar.standardAppearance = appearance
                 } else {
-                    tabBar.backgroundImage = attribute.value as? UIImage
+                    switch attribute.value {
+                    case is UIImage:
+                        tabBar.backgroundImage = attribute.value as? UIImage
+                    case is (UIImage, UIBlurEffect):
+                        fallthrough
+                    case is (UIImage, Bool):
+                        let (backgroundImage, _) = attribute.value as! (UIImage, Any)
+                        tabBar.backgroundImage = backgroundImage
+                    default:
+                        break
+                    }
                 }
             }
         }

@@ -1,5 +1,5 @@
 PODS:
-  - ApplicationEntry (1.0.0)
+  - ApplicationEntry (1.0.1)
   - lottie-ios (3.1.8)
 
 DEPENDENCIES:
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ApplicationEntry: ca03a1853ced94367854d2f8db4e65d4154e46f5
+  ApplicationEntry: 02ce2f2271c512539d16bc4737527f4c017932e0
   lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
 
 PODFILE CHECKSUM: 708f4f2acf70c754363276f65a6443213587f493

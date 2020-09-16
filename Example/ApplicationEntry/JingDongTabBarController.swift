@@ -36,7 +36,7 @@ class JingDongTabBarController: UITabBarController {
         guard overlayItems != nil else {
             return
         }
-        overlayTabBarItems(overlayItems!)
+        overlayTabBarItems(overlayItems!, systemItemEndable: false)
         /***********************    配置结束  ***********************/
     }
     

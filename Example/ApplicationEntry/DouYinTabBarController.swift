@@ -33,7 +33,7 @@ class DouYinTabBarController: UITabBarController {
         /***********************    配置开始  ***********************/
         barAppearance(attributes: [
             TabAppearanceType
-            .backgroundImage: extension_imageWith(UIColor.clear, size: CGSize(width: 1, height: 1))!
+            .backgroundImage: (extension_imageWith(UIColor.clear, size: CGSize(width: 1, height: 1))!, false)
         ])
         
         // 动画自定义背景
