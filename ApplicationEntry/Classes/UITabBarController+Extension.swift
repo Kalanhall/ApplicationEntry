@@ -56,9 +56,6 @@ public extension UITabBarController {
         guard tabBar.items != nil else {
             return
         }
-        guard UIApplication.shared.keyWindow != nil else {
-            return
-        }
         
         var tempH: CGFloat = 0.0
         if height <= 0 {
