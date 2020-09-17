@@ -32,6 +32,14 @@ Pod::Spec.new do |s|
 
   s.source_files = 'ApplicationEntry/Classes/**/*'
   
+  s.subspec 'Category' do |ss|
+    ss.source_files = 'ApplicationEntry/Classes/Category/*'
+  end
+
+  s.subspec 'FlashyTabBar' do |ss|
+    ss.source_files = 'ApplicationEntry/Classes/FlashyTabBar/*'
+  end
+  
   # s.resource_bundles = {
   #   'ApplicationEntry' => ['ApplicationEntry/Assets/*.png']
   # }

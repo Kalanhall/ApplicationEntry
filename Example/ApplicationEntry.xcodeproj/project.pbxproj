@@ -27,6 +27,7 @@
 		F610256425109E3600669777 /* WeiBoTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F610256325109E3500669777 /* WeiBoTabBarController.swift */; };
 		F61025662510A91000669777 /* DouYinTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61025652510A91000669777 /* DouYinTabBarController.swift */; };
 		F61025682510BCA900669777 /* DemoImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61025672510BCA900669777 /* DemoImageViewController.swift */; };
+		F61026B9251304B800669777 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61026B8251304B800669777 /* CustomTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		F610256325109E3500669777 /* WeiBoTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeiBoTabBarController.swift; sourceTree = "<group>"; };
 		F61025652510A91000669777 /* DouYinTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYinTabBarController.swift; sourceTree = "<group>"; };
 		F61025672510BCA900669777 /* DemoImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoImageViewController.swift; sourceTree = "<group>"; };
+		F61026B8251304B800669777 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 			children = (
 				F610255F251090D500669777 /* System */,
 				F6102560251090DF00669777 /* Other */,
+				F61026B7251300ED00669777 /* Special */,
 			);
 			name = Demo;
 			sourceTree = "<group>";
@@ -217,6 +220,14 @@
 				F61025652510A91000669777 /* DouYinTabBarController.swift */,
 			);
 			name = Other;
+			sourceTree = "<group>";
+		};
+		F61026B7251300ED00669777 /* Special */ = {
+			isa = PBXGroup;
+			children = (
+				F61026B8251304B800669777 /* CustomTabBarController.swift */,
+			);
+			name = Special;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,6 +415,7 @@
 				F610255E251090CE00669777 /* System1TabBarController.swift in Sources */,
 				F61025662510A91000669777 /* DouYinTabBarController.swift in Sources */,
 				F610253F250F6F0F00669777 /* DemoViewController.swift in Sources */,
+				F61026B9251304B800669777 /* CustomTabBarController.swift in Sources */,
 				F6102562251099BC00669777 /* System2TabBarController.swift in Sources */,
 				F6102539250F159400669777 /* HotBtn.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,

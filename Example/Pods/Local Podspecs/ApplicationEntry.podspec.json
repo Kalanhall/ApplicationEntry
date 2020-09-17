@@ -1,6 +1,6 @@
 {
   "name": "ApplicationEntry",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "summary": "在系统UITabBarController和UINavigationController基础上，搭建常见的NavigationBar/TabBar样式",
   "description": "TODO: 在系统UITabBarController和UINavigationController基础上，搭建常见的NavigationBar/TabBar样式。",
   "homepage": "https://github.com/Kalanhall",
@@ -13,10 +13,20 @@
   },
   "source": {
     "git": "https://github.com/Kalanhall/ApplicationEntry.git",
-    "tag": "1.0.1"
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "ApplicationEntry/Classes/**/*"
+  "source_files": "ApplicationEntry/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "Category",
+      "source_files": "ApplicationEntry/Classes/Category/*"
+    },
+    {
+      "name": "FlashyTabBar",
+      "source_files": "ApplicationEntry/Classes/FlashyTabBar/*"
+    }
+  ]
 }

@@ -20,7 +20,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }()
     
     lazy var titles: [[String]] = {
-        return [["System", "System 1", "System 2"], ["XianYu", "Hot Book", "JingDong", "WeiBo", "DouYin"]]
+        return [["System", "System 1", "System 2"], ["XianYu", "Hot Book", "JingDong", "WeiBo", "DouYin"], ["Flashy"]]
     }()
 
     override func viewDidLoad() {
@@ -62,7 +62,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             default:
                 break
             }
-        } else {
+        } else if (indexPath.section == 1) {
             switch indexPath.row {
             case 0:
                 navigationController?.pushViewController(XianYuTabBarController(), animated: true)
@@ -77,6 +77,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             default:
                 break
             }
+        } else {
+            navigationController?.pushViewController(CustomTabBarController(), animated: true)
         }
     }
     
