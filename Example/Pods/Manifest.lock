@@ -1,9 +1,9 @@
 PODS:
-  - ApplicationEntry (1.0.2):
-    - ApplicationEntry/Category (= 1.0.2)
-    - ApplicationEntry/FlashyTabBar (= 1.0.2)
-  - ApplicationEntry/Category (1.0.2)
-  - ApplicationEntry/FlashyTabBar (1.0.2)
+  - ApplicationEntry (1.0.3):
+    - ApplicationEntry/Category (= 1.0.3)
+    - ApplicationEntry/FlashyTabBar (= 1.0.3)
+  - ApplicationEntry/Category (1.0.3)
+  - ApplicationEntry/FlashyTabBar (1.0.3)
   - lottie-ios (3.1.8)
 
 DEPENDENCIES:
@@ -19,9 +19,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ApplicationEntry: b4408eb734f786ebed1db6e55b855179fbae8ee8
+  ApplicationEntry: 3197341efc00751db6f1d851a24b275c352af966
   lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
 
-PODFILE CHECKSUM: 708f4f2acf70c754363276f65a6443213587f493
+PODFILE CHECKSUM: aa3195f0f04a7732cfbd9797bd403fb9ac80d5c9
 
 COCOAPODS: 1.9.1
