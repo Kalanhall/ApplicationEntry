@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ApplicationEntry'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = '在系统UITabBarController和UINavigationController基础上，搭建常见的NavigationBar/TabBar样式'
 
 # This description is used to generate tags and improve search results.
